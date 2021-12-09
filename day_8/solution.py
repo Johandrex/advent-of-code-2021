@@ -8,8 +8,6 @@ data = read_input()
 appearances = 0
 for line in data:
     for item in (line[1].split()):
-        print(item)
-        print(item.strip())
         if len(item) == 2:  # one contains 2 unique characters
             appearances += 1
         elif len(item) == 4:  # four contains 4 unique characters
