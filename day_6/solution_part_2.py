@@ -6,7 +6,7 @@ fishes = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 def read_input():
     global fishes
 
-    _file = open('day_6_data.txt')
+    _file = open('data.txt')
     _input = []
     for line in _file:
         numbers = line.split(',')
